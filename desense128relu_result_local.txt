@@ -1,0 +1,19 @@
+# started on Mon Oct  5 17:05:10 2020
+
+
+ Performance counter stats for 'python3 dense128relu.py':
+
+     1.436.840.886      cache-misses              #   18,539 % of all cache refs    
+   107.918.533.336      cycles                                                      
+   142.051.498.805      instructions              #    1,32  insn per cycle         
+     7.750.165.194      cache-references                                            
+    17.169.396.258      branches                                                    
+       456.569.743      branch-misses             #    2,66% of all branches        
+       962.312.474      bus-cycles                                                  
+
+      24,200384446 seconds time elapsed
+
+      38,938633000 seconds user
+       5,617602000 seconds sys
+
+
