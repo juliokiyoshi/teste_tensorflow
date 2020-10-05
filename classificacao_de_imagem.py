@@ -17,12 +17,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 
-flower_photo/
-  daisy/
-  dandelion/
-  roses/
-  sunflowers/
-  tulips/
+
 import pathlib
 dataset_url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
 data_dir = tf.keras.utils.get_file('flower_photos', origin=dataset_url, untar=True)
@@ -59,7 +54,7 @@ class_names = train_ds.class_names
 print(class_names)
 
 for image_batch, labels_batch in train_ds:
-      print(image_batch.shape)
+  print(image_batch.shape)
   print(labels_batch.shape)
   break
 
