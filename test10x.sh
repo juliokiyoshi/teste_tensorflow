@@ -1,13 +1,13 @@
 #!/bin/bash
 
 if [ "$EUID" != "0" ]; then
-  echo "You must run this script as root."
-  exit
+  echo "ERROR: You must run this script as root."
+  exit 1
 fi
 
 if [ "$#" -ne 1 ]; then
-  echo "The argument must be pw8 or pw9."
-  exit
+  echo "ERROR: The argument must be pw8 or pw9."
+  exit 1
 fi
 
 if [ "$1" = "pw9" ]; then
@@ -40,5 +40,5 @@ if [ "$1" = "pw8" ]; then
   exit
 fi
 
-echo "The argument must be pw8 or pw9."
-exit
+echo "ERROR: The argument must be pw8 or pw9."
+exit 1
