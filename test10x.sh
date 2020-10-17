@@ -1,7 +1,6 @@
 #!/bin/bash
 
-ISUDO=$(id root)
-if [ "$ISUDO" != "0" ]; then
+if [ "$EUID" != "0" ]; then
   echo "You must run this script as root."
   exit
 fi
