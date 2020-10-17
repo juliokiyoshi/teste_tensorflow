@@ -1,0 +1,21 @@
+# started on Sat Oct 17 16:23:28 2020
+
+
+ Performance counter stats for 'python3 image_classification.py':
+
+       65381424779      branches                                                      (24.98%)
+        3252716985      branch-misses             #    4.97% of all branches          (12.64%)
+       13102475528      cache-misses              #   15.249 % of all cache refs      (25.12%)
+       85925159069      cache-references                                              (37.55%)
+     2391468619360      cycles                                                        (50.05%)
+      439474611788      instructions              #    0.18  insn per cycle         
+                                                  #    3.90  stalled cycles per insn  (62.58%)
+     1715302881667      idle-cycles-backend       #   71.73% backend cycles idle      (37.48%)
+      384890735466      idle-cycles-frontend      #   16.09% frontend cycles idle     (12.51%)
+
+      59.033806656 seconds time elapsed
+
+     738.633055000 seconds user
+     123.355381000 seconds sys
+
+
