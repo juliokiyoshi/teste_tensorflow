@@ -1,0 +1,15 @@
+# started on Sun Oct 18 12:59:40 2020
+
+
+ Performance counter stats for 'python3 rede_neural_convolucional.py':
+
+     5723398288850      cpu-cycles                                                    (66.66%)
+     7978155249437      instructions              #    1.39  insn per cycle                                              (83.36%)
+     1566494339116      cache-references                                              (66.64%)
+       10883562640      cache-misses              #    0.695 % of all cache refs      (83.30%)
+      570976721191      branches                                                      (33.36%)
+       23859248342      branch-misses             #    4.18% of all branches          (50.00%)
+   <not supported>      bus-cycles                                                  
+
+     284.653524844 seconds time elapsed
+
