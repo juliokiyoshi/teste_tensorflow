@@ -1,0 +1,18 @@
+# started on Wed Oct 21 11:34:31 2020
+
+
+ Performance counter stats for 'python3 vgg16.py':
+
+     2051155916038      branches                                                      (50.00%)
+       64956294067      branch-misses             #    3.17% of all branches          (66.67%)
+       56638020806      cache-misses              #    0.188 % of all cache refs      (83.33%)
+    30059377297394      cache-references                                              (50.00%)
+    89057731014264      cycles                                                        (66.67%)
+   196291010634543      instructions              #    2.20  insn per cycle           (83.33%)
+
+    3076.351321907 seconds time elapsed
+
+   24079.755158000 seconds user
+     166.220100000 seconds sys
+
+
