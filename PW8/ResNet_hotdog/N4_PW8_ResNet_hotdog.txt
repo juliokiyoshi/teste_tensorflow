@@ -1,0 +1,18 @@
+# started on Mon Oct 26 20:54:56 2020
+
+
+ Performance counter stats for 'python3 resnetClassification.py':
+
+       79019635345      branches                                                      (50.06%)
+        5439601268      branch-misses             #    6.88% of all branches          (66.78%)
+        4762088936      cache-misses              #    1.245 % of all cache refs      (83.48%)
+      382435329470      cache-references                                              (49.94%)
+     1368945997732      cycles                                                        (66.65%)
+     2260709061032      instructions              #    1.65  insn per cycle           (83.29%)
+
+     108.980601451 seconds time elapsed
+
+     369.348506000 seconds user
+       7.837469000 seconds sys
+
+
