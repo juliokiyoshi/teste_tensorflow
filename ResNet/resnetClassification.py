@@ -5,7 +5,7 @@ import numpy as np
 #import sys
 #lenght = int(sys.argv[2])
 #folder = sys.argv[1]
-lenght = 746
+length = 746
 #folder_name = "/home/ubuntu/prediction/hot_dog"
 folder_name = "hot_dog"
 
@@ -31,3 +31,4 @@ for i in range(lenght):
 
 print("RIGHTS: {}".format(count))
 print("WRONGS: {}".format(lenght - count))
+print("ACC: {}".format(count/length))
