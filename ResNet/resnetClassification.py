@@ -5,7 +5,7 @@ import numpy as np
 #import sys
 #lenght = int(sys.argv[2])
 #folder = sys.argv[1]
-length = 746
+length = 735
 #folder_name = "/home/ubuntu/prediction/hot_dog"
 folder_name = "hot_dog"
 
