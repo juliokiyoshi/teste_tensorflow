@@ -14,7 +14,7 @@ model = ResNet50(weights='imagenet')
 images = []
 prediction = []
 count = 0
-for i in range(lenght):
+for i in range(length):
     img_path = folder_name + '/' + str(i) + '.jpg'  
     img = image.load_img(img_path, target_size=(224, 224))
     images.append(image.img_to_array(img))
@@ -27,8 +27,9 @@ for i in range(lenght):
     if (strPrediction == 'hotdog'):
         count += 1
     else:
-        print(str(i) + " -> " + strPrediction)
+        #print(str(i) + " -> " + strPrediction)
+        pass
 
 print("RIGHTS: {}".format(count))
-print("WRONGS: {}".format(lenght - count))
+print("WRONGS: {}".format(length - count))
 print("ACC: {}".format(count/length))
