@@ -40,13 +40,13 @@ for j in range(0,9):
           if i==0:
               aux.append('teste'+str(j))
           if i>=2 and i<=8:
-              aux.append(lista[i][0])
+              aux.append(str(lista[i][0]))
     else:
       for i in range(len(lista)):
           if i==0:
               aux.append('teste'+str(j))
           if i>=2 and (not i in [8,9,10]) and i<=11:
-              aux.append(lista[i][0])
+              aux.append(str(lista[i][0]))
     append_list_as_row(file_output, aux)
     aux.clear()
     lista.clear()
