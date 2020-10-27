@@ -20,7 +20,7 @@ for i in range(length):
     images[i] = np.expand_dims(images[i], axis=0)
     images[i] = preprocess_input(images[i])
 
-for j in range(again)
+for j in range(again):
     for i in range(length):
         prediction = model.predict(images[i])
         #print(decode_predictions(prediction[i], top=1)[0][0][1])
