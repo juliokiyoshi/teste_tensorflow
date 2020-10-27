@@ -45,7 +45,7 @@ for j in range(0,9):
       for i in range(len(lista)):
           if i==0:
               aux.append('teste'+str(j))
-          if i>=2 and (not i in [8,9,10,11]) and i<=12:
+          if i>=2 and (not i in [8,9,10]) and i<=11:
               aux.append(lista[i][0])
     append_list_as_row(file_output, aux)
     aux.clear()
