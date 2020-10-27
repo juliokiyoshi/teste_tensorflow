@@ -32,4 +32,5 @@ for j in range(0,9):
             aux.append(lista[i][0])
     append_list_as_row('resultado.csv', aux)
     aux.clear()
+    lista.clear()
     f.close()
