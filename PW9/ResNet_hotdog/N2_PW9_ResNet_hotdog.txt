@@ -1,21 +1,21 @@
-# started on Mon Oct 26 21:54:37 2020
+# started on Wed Oct 28 03:45:43 2020
 
 
  Performance counter stats for 'python3 resnetClassification.py':
 
-    88,174,227,716      branches                                                      (25.09%)
-     5,528,908,258      branch-misses             #    6.27% of all branches          (12.53%)
-    17,405,738,468      cache-misses              #    4.676 % of all cache refs      (24.95%)
-   372,258,576,883      cache-references                                              (37.32%)
- 1,645,291,005,021      cycles                                                        (49.76%)
- 2,288,217,197,939      instructions              #    1.39  insn per cycle         
-                                                  #    0.44  stalled cycles per insn  (62.32%)
- 1,008,688,502,196      idle-cycles-backend       #   61.31% backend cycles idle      (37.60%)
-    30,812,790,888      idle-cycles-frontend      #    1.87% frontend cycles idle     (12.55%)
+   841,949,952,880      branches                                                      (24.99%)
+    50,114,731,340      branch-misses             #    5.95% of all branches          (12.51%)
+   174,107,073,553      cache-misses              #    4.764 % of all cache refs      (25.01%)
+ 3,654,682,337,599      cache-references                                              (37.50%)
+15,836,563,833,098      cycles                                                        (50.00%)
+22,585,445,723,416      instructions              #    1.43  insn per cycle         
+                                                  #    0.43  stalled cycles per insn  (62.51%)
+ 9,651,790,006,754      idle-cycles-backend       #   60.95% backend cycles idle      (37.51%)
+   262,914,788,236      idle-cycles-frontend      #    1.66% frontend cycles idle     (12.51%)
 
-     142.158850736 seconds time elapsed
+    1285.132962198 seconds time elapsed
 
-     492.643068000 seconds user
-      21.944070000 seconds sys
+    4763.110340000 seconds user
+     204.321674000 seconds sys
 
 

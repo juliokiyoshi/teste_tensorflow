@@ -7,3 +7,6 @@ Downloading data from https://storage.googleapis.com/download.tensorflow.org/dat
 RIGHTS: 625
 WRONGS: 106
 ACC: 0.8549931600547196
+RIGHTS: 6250
+WRONGS: 1060
+ACC: 0.8549931600547196
