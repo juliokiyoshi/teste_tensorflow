@@ -41,4 +41,4 @@ for j in range(again):
 print("RIGHTS: {}".format(count))
 print("WRONGS: {}".format(again*length - count))
 print("ACC: {}".format(count/(again*length)))
-print("Time Elapsed: {}".format(time.time() - begin))
+print("Time Elapsed: {}s".format(time.time() - begin))
