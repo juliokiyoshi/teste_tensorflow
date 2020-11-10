@@ -3,6 +3,9 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input, decode_predictions
 import numpy as np
 import sys
+import time
+
+begin = time.time()
 
 #folder = sys.argv[1]
 length = 731
@@ -38,3 +41,4 @@ for j in range(again):
 print("RIGHTS: {}".format(count))
 print("WRONGS: {}".format(again*length - count))
 print("ACC: {}".format(count/(again*length)))
+print("Time Elapsed: {}".format(time.time() - begin))
