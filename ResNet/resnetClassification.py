@@ -39,8 +39,8 @@ for j in range(again):
             #print(str(i) + " -> " + strPrediction)
             pass
 
-print("Begin: " + datetime.now().strftime("%H:%M:%S"))
-print("End: " + datetime.now().strftime("%H:%M:%S"))
+print("Begin: " + datetime.utcnow().strftime("%H:%M:%S"))
+print("End: " + datetime.utcnow().strftime("%H:%M:%S"))
 print("RIGHTS: {}".format(count))
 print("WRONGS: {}".format(again*length - count))
 print("ACC: {}".format(count/(again*length)))
