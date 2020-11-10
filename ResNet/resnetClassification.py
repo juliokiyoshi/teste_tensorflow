@@ -7,7 +7,6 @@ import time
 from datetime import datetime
 
 begin = time.time()
-print('Begin: ' + datetime.now().strftime("%H:%M:%S"))
 
 #folder = sys.argv[1]
 length = 731
@@ -40,8 +39,9 @@ for j in range(again):
             #print(str(i) + " -> " + strPrediction)
             pass
 
+print("Begin: " + datetime.now().strftime("%H:%M:%S"))
+print("End: " + datetime.now().strftime("%H:%M:%S"))
 print("RIGHTS: {}".format(count))
 print("WRONGS: {}".format(again*length - count))
 print("ACC: {}".format(count/(again*length)))
-print('End: ' + datetime.now().strftime("%H:%M:%S"))
 print("Time Elapsed: {}s".format(time.time() - begin))
