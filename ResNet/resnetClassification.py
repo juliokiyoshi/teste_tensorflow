@@ -6,7 +6,7 @@ import sys
 
 #folder = sys.argv[1]
 length = 731
-lenght = int(sys.argv[1])
+length = int(sys.argv[1])
 if (lenght > 731):
     print("Using maximum length: 731")
     lenght = 731
